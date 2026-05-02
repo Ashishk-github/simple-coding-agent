@@ -1,0 +1,19 @@
+{
+  "name": "langgraph-app-builder",
+  "version": "1.0.0",
+  "description": "A LangGraph.js project to build web apps from a single prompt using Groq.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.0",
+    "@langchain/groq": "^0.1.0",
+    "@langchain/langgraph": "^0.2.0",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0",
+    "prettier": "^3.8.3",
+    "zod": "^3.25.76"
+  }
+}
